@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+    {{ title }}
+{% endblock title %}
+
+{% block content %}
+    <div>
+        <p>Choose form</p>
+    </div>
+    <div>
+        <a class="form-links cont-corners" href="{% url 'login' %}">Log In</a>
+        <a class="form-links cont-corners" href="{% url 'pet' %}">Pet</a>
+        <a class="form-links cont-corners" href="{% url 'third' %}">Third</a>
+    </div>
+    <div>
+        <a class="form-links cont-corners" href="{% url 'all_pets' %}">Ready Pets</a>
+    </div>
+{% endblock content %}

@@ -1,0 +1,10 @@
+{
+  "None_name": {
+    "name": "N/A",
+    "breed": "N/A",
+    "age": "N/A",
+    "color": "N/A",
+    "food": "N/A",
+    "img_path": "media/no_img.jpg"
+  }
+}

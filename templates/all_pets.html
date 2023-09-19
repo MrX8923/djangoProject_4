@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    {{ title }}
+{% endblock title %}
+{% block content %}
+{% for i in pets %}
+    <div class="">
+        <div class="col-6">
+            <img class="cont-corners" src="{% static i.img_path %}" alt="Pet_image">
+        </div>
+        <div class="col-3">
+            <table class="animal">
+                <tr>
+                    <td>Кличка:</td>
+                    <td>{{ i.name }}</td>
+                </tr>
+                <tr>
+                    <td>Порода:</td>
+                    <td>{{ i.breed }}</td>
+                </tr>
+                <tr>
+                    <td>Возраст:</td>
+                    <td>{{ i.age }}</td>
+                </tr>
+                <tr>
+                    <td>Окрас:</td>
+                    <td>{{ i.color }}</td>
+                </tr>
+                <tr>
+                    <td>Корм:</td>
+                    <td>{{ i.food }}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+{% endfor %}
+{% endblock content %}
+{% block copyright %}
+    <section class="central-block">
+        <a class="form-links cont-corners" href="{% url 'home' %}">Главная</a>
+    </section>
+{% endblock copyright %}

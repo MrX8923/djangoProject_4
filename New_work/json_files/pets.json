@@ -1,0 +1,58 @@
+{
+  "No_name": {
+    "name": "N/A",
+    "breed": "N/A",
+    "age": "N/A",
+    "color": "N/A",
+    "food": "N/A",
+    "img_path": "media/no_img.jpg"
+  },
+  "Jack": {
+    "name": "Jack",
+    "breed": "Panda",
+    "age": "4",
+    "color": "Red",
+    "food": "Bamboo",
+    "img_path": "media/Jack.jpg"
+  },
+  "\u0422\u0438\u043c\u043e\u043d": {
+    "name": "\u0422\u0438\u043c\u043e\u043d",
+    "breed": "\u0421\u0443\u0440\u0438\u043a\u0430\u0442",
+    "age": "6",
+    "color": "\u0421\u0435\u0440\u044b\u0439",
+    "food": "\u0412\u0441\u044f\u043a\u0438\u0439",
+    "img_path": "media/\u0422\u0438\u043c\u043e\u043d.jpg"
+  },
+  "\u0411\u0435\u0442\u0442\u0438": {
+    "name": "\u0411\u0435\u0442\u0442\u0438",
+    "breed": "\u041b\u0435\u043e\u043f\u0430\u0440\u0434",
+    "age": "3",
+    "color": "\u041f\u044f\u0442\u043d\u044b\u0448\u043a\u0438",
+    "food": "\u0417\u0435\u0431\u0440\u044b",
+    "img_path": "media/\u0411\u0435\u0442\u0442\u0438.jpg"
+  },
+  "\u041c\u0438\u0448\u0430": {
+    "name": "\u041c\u0438\u0448\u0430",
+    "breed": "\u041c\u0435\u0434\u0432\u0435\u0434\u044c",
+    "age": "4",
+    "color": "\u0411\u0443\u0440\u044b\u0439",
+    "food": "\u041b\u044e\u0431\u043e\u0439",
+    "img_path": "media/\u041c\u0438\u0448\u0430.jpg"
+  },
+  "\u041f\u0435\u0441": {
+    "name": "\u041f\u0435\u0441",
+    "breed": "\u0421\u043e\u0431\u0430\u043a\u0430",
+    "age": "4",
+    "color": "\u0411\u043b\u043e\u043d\u0434\u0438\u043d",
+    "food": "\u041a\u043e\u0441\u0442\u043e\u0447\u043a\u0438",
+    "img_path": "media/doggy.jpg"
+  },
+  "\u0422\u0443\u0437\u0438\u043a": {
+    "name": "\u0422\u0443\u0437\u0438\u043a",
+    "breed": "N/D",
+    "age": "N/D",
+    "color": "N/D",
+    "food": "N/D",
+    "img_path": "media/no_img.jpg"
+  }
+}

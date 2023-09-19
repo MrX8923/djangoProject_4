@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+    Питомец оформлен
+{% endblock title %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="col-6">
+            <img class="cont-corners" src="{% static img_path %}" alt="Pet_image">
+        </div>
+        <div class="col-3">
+            <table>
+                <tr>
+                    <td class="col-md-2">Кличка:</td>
+                    <td class="col-md-2">{{ name }}</td>
+                </tr>
+                <tr>
+                    <td class="col-md-2">Порода:</td>
+                    <td class="col-md-2">{{ breed }}</td>
+                </tr>
+                <tr>
+                    <td class="col-md-2">Возраст:</td>
+                    <td class="col-md-2">{{ age }}</td>
+                </tr>
+                <tr>
+                    <td class="col-md-2">Окрас:</td>
+                    <td class="col-md-2">{{ color }}</td>
+                </tr>
+                <tr>
+                    <td class="col-md-2">Корм:</td>
+                    <td class="col-md-2">{{ food }}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+{% endblock content %}
+{% block copyright %}
+    <section class="central-block">
+        <a class="form-links cont-corners" href="{% url 'home' %}">Главная</a>
+    </section>
+{% endblock copyright %}
